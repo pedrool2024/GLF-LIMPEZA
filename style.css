@@ -1,0 +1,153 @@
+body {
+    background-color: #00a7b4
+}
+
+h1 {
+    color: aliceblue    ;
+}
+
+.destaque-laranja {
+    background-color: #FF4500;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin: 0px;
+    box-shadow: 0 4px 10 px rgba(0,0,0,0.1);
+}
+
+    .destaque-laranja h1 {
+        font-size: 4.0rem;
+    }
+
+.destaque-laranja img{
+    width: 220px;
+    margin-top: -100px;
+    margin-left: -70px;
+    margin-bottom: -85px;
+}
+
+.header {
+    background-color: #00a7b4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px 30px;
+    flex-direction: row-reverse;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.botoes-top {
+    color: white;
+    display: flex;
+    gap: 75px;
+}
+.botoes-top {
+    margin: 0;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.botoes-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 15px;
+    margin-left: 150px;
+}
+
+main {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 60px 20px;
+    text-align: left;
+    border-radius: 0 0 10px 10px;
+    margin: 0px;
+    box-shadow: 0 4px 10 px rgba(0,0,0,0.1);
+}
+
+.titulo {
+    color: #00a7b4;
+    margin-bottom: -30px;
+}
+
+.serviço {
+    color: #00a7b4;
+}
+
+.depoimento {
+    color: #00a7b4
+}
+
+.contato {
+    color: #00a7b4;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: Arial,sans-serif;
+}
+
+.contato img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.contato img:hover {
+    transform: scale(1.1);
+}
+
+.destaque-laranja, main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-widht: 768px) {
+    .destaque-laranja, header, main {
+        padding: 30px 10px;
+        font-size: 90%;
+    }
+
+    .destaque-laranja h1 {
+        font-size: 2rem;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    font-size: 21px;
+}
+
+.glf {
+    margin-left: 150px;
+}
+
+img {
+    width: 80px;
+    margin-left: 175px;
+}
+
+.rede {
+    color:#00a7b4;
+
+}
