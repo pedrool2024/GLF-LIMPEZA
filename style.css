@@ -73,7 +73,7 @@ main {
 
 .titulo {
     color: #00a7b4;
-    margin-bottom: -30px;
+    margin-bottom: margin-top -200px;
 }
 
 .serviço {
@@ -144,10 +144,50 @@ ul {
 
 img {
     width: 80px;
-    margin-left: 175px;
+    margin-left: 470px;
+    margin-top: -200px;
 }
 
 .rede {
     color:#00a7b4;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+.botoes-top a {
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+section {
+    padding-top: 80px;
+    margin-top: 80px;
+}
+
+.titulo {
+    margin-top: -230px;
+}
+
+.serviço {
+    margin-top: -130px;
+}
+
+.depoimento {
+    margin-top: -140px;
+}
+
+.contato {
+    margin-top: -170px;
+}
+
+.rede {
+    margin-top: -170px;
+}
+
+.produto {
+    text-align: center;
 }
